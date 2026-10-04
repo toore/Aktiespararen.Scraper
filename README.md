@@ -1,4 +1,4 @@
-# Aktiespararna Scraper
+# Aktiespararen Scraper
 
 Scrapes the "Aktiespararna Aktiv" holdings table from the Aktiespararna PDF.
 Asks for a total amount to distribute and prints every stock alphabetically with its percentage and amount.
@@ -9,12 +9,6 @@ Asks for a total amount to distribute and prints every stock alphabetically with
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-```
-
-If PowerShell blocks activation, run once:
-
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
 ## Start the virtual environment
